@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Mail, Linkedin, Globe, Github, ArrowUpRight } from "lucide-react";
-import TypeWriter from "@/components/TypeWriter";
 
 const links = [
   {

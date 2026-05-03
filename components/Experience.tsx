@@ -2,7 +2,6 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import TypeWriter from "@/components/TypeWriter";
 
 const experiences = [
   {

@@ -3,7 +3,6 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { ArrowUpRight, Github } from "lucide-react";
-import TypeWriter from "@/components/TypeWriter";
 
 const projects = [
   {

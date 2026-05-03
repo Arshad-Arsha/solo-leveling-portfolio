@@ -4,7 +4,6 @@ import dynamic from "next/dynamic";
 
 const CursorGlow = dynamic(() => import("@/components/CursorGlow"), { ssr: false });
 const SmoothScroll = dynamic(() => import("@/components/SmoothScroll"), { ssr: false });
-const PageLoader = dynamic(() => import("@/components/PageLoader"), { ssr: false });
 
 export const metadata: Metadata = {
   title: "Mohammed Arshad — Frontend Developer",
@@ -53,7 +52,6 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
-        <PageLoader />
         <SmoothScroll />
         <CursorGlow />
         {children}
